@@ -1,0 +1,583 @@
+[
+  {
+    "id": "nrt",
+    "kind": "direct",
+    "schedule": "daily",
+    "label": "東京成田",
+    "origin": "桃園",
+    "dest": "成田",
+    "from": "TPE",
+    "to": "NRT",
+    "tripDays": 7,
+    "nonstop": true,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAGoFEgNUUEVyBRIDTlJUGhwSCjIwMjYtMTEtMTAoAGoFEgNOUlRyBRIDVFBFQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": [
+      "2026-10-17",
+      "2026-10-18",
+      "2026-10-19"
+    ],
+    "history": [
+      "2026-10-28",
+      "2027-02-09",
+      "2027-02-17"
+    ]
+  },
+  {
+    "id": "hnd",
+    "kind": "direct",
+    "schedule": "daily",
+    "label": "東京羽田",
+    "origin": "松山",
+    "dest": "羽田",
+    "from": "TSA",
+    "to": "HND",
+    "tripDays": 7,
+    "nonstop": true,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAGoFEgNUU0FyBRIDSE5EGhwSCjIwMjYtMTEtMTAoAGoFEgNITkRyBRIDVFNBQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": [
+      "2026-10-19"
+    ]
+  },
+  {
+    "id": "cts",
+    "kind": "direct",
+    "schedule": "daily",
+    "label": "札幌",
+    "origin": "桃園",
+    "dest": "新千歲",
+    "from": "TPE",
+    "to": "CTS",
+    "tripDays": 7,
+    "nonstop": true,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAGoFEgNUUEVyBRIDQ1RTGhwSCjIwMjYtMTEtMTAoAGoFEgNDVFNyBRIDVFBFQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": [
+      "2026-10-17",
+      "2026-10-18",
+      "2026-10-19"
+    ]
+  },
+  {
+    "id": "jfk",
+    "kind": "direct",
+    "schedule": "daily",
+    "label": "紐約直飛",
+    "origin": "桃園",
+    "dest": "紐約甘迺迪",
+    "from": "TPE",
+    "to": "JFK",
+    "tripDays": 14,
+    "nonstop": true,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAGoFEgNUUEVyBRIDSkZLGhwSCjIwMjYtMTEtMTcoAGoFEgNKRktyBRIDVFBFQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-17"
+    ],
+    "captures": [
+      "2026-10-18",
+      "2026-10-19"
+    ]
+  },
+  {
+    "id": "jfk1",
+    "kind": "direct",
+    "schedule": "daily",
+    "label": "紐約轉機",
+    "origin": "桃園",
+    "dest": "紐約甘迺迪",
+    "from": "TPE",
+    "to": "JFK",
+    "tripDays": 14,
+    "nonstop": false,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAWoFEgNUUEVyBRIDSkZLGhwSCjIwMjYtMTEtMTcoAWoFEgNKRktyBRIDVFBFQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-17"
+    ],
+    "captures": [
+      "2026-10-18",
+      "2026-10-19"
+    ]
+  },
+  {
+    "id": "x-hkg-nrt",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 1,
+    "label": "香港出發飛東京",
+    "origin": "香港",
+    "dest": "成田",
+    "from": "HKG",
+    "to": "NRT",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNIS0dyBRIDTlJUegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA05SVHIFEgNIS0d6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-hkg-cts",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 1,
+    "label": "香港出發飛札幌",
+    "origin": "香港",
+    "dest": "新千歲",
+    "from": "HKG",
+    "to": "CTS",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNIS0dyBRIDQ1RTegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA0NUU3IFEgNIS0d6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": [
+      "2026-10-19"
+    ]
+  },
+  {
+    "id": "x-hkg-jfk",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 1,
+    "label": "香港出發飛紐約",
+    "origin": "香港",
+    "dest": "紐約甘迺迪",
+    "from": "HKG",
+    "to": "JFK",
+    "tripDays": 14,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNIS0dyBRIDSkZLegNUUEUaLRIKMjAyNi0xMS0xNygBMgJDSTICQlIyAkpYagUSA0pGS3IFEgNIS0d6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-17"
+    ],
+    "captures": [
+      "2026-10-19"
+    ]
+  },
+  {
+    "id": "p-hkg",
+    "kind": "positioning",
+    "schedule": "weekly",
+    "weekday": 1,
+    "label": "台北往返香港",
+    "origin": "桃園",
+    "dest": "香港",
+    "from": "TPE",
+    "to": "HKG",
+    "tripDays": 7,
+    "nonstop": true,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAGoFEgNUUEVyBRIDSEtHGhwSCjIwMjYtMTEtMTAoAGoFEgNIS0dyBRIDVFBFQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": [
+      "2026-10-19"
+    ]
+  },
+  {
+    "id": "x-bkk-nrt",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 2,
+    "label": "曼谷出發飛東京",
+    "origin": "曼谷",
+    "dest": "成田",
+    "from": "BKK",
+    "to": "NRT",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNCS0tyBRIDTlJUegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA05SVHIFEgNCS0t6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": [
+      "2026-10-18"
+    ]
+  },
+  {
+    "id": "x-bkk-cts",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 2,
+    "label": "曼谷出發飛札幌",
+    "origin": "曼谷",
+    "dest": "新千歲",
+    "from": "BKK",
+    "to": "CTS",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNCS0tyBRIDQ1RTegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA0NUU3IFEgNCS0t6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": [
+      "2026-10-18"
+    ]
+  },
+  {
+    "id": "x-bkk-jfk",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 2,
+    "label": "曼谷出發飛紐約",
+    "origin": "曼谷",
+    "dest": "紐約甘迺迪",
+    "from": "BKK",
+    "to": "JFK",
+    "tripDays": 14,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNCS0tyBRIDSkZLegNUUEUaLRIKMjAyNi0xMS0xNygBMgJDSTICQlIyAkpYagUSA0pGS3IFEgNCS0t6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-17"
+    ],
+    "captures": [
+      "2026-10-18"
+    ]
+  },
+  {
+    "id": "p-bkk",
+    "kind": "positioning",
+    "schedule": "weekly",
+    "weekday": 2,
+    "label": "台北往返曼谷",
+    "origin": "桃園",
+    "dest": "曼谷",
+    "from": "TPE",
+    "to": "BKK",
+    "tripDays": 7,
+    "nonstop": true,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAGoFEgNUUEVyBRIDQktLGhwSCjIwMjYtMTEtMTAoAGoFEgNCS0tyBRIDVFBFQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": [
+      "2026-10-18"
+    ]
+  },
+  {
+    "id": "x-sin-nrt",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 3,
+    "label": "新加坡出發飛東京",
+    "origin": "新加坡",
+    "dest": "成田",
+    "from": "SIN",
+    "to": "NRT",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNTSU5yBRIDTlJUegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA05SVHIFEgNTSU56A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-sin-cts",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 3,
+    "label": "新加坡出發飛札幌",
+    "origin": "新加坡",
+    "dest": "新千歲",
+    "from": "SIN",
+    "to": "CTS",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNTSU5yBRIDQ1RTegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA0NUU3IFEgNTSU56A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-sin-jfk",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 3,
+    "label": "新加坡出發飛紐約",
+    "origin": "新加坡",
+    "dest": "紐約甘迺迪",
+    "from": "SIN",
+    "to": "JFK",
+    "tripDays": 14,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNTSU5yBRIDSkZLegNUUEUaLRIKMjAyNi0xMS0xNygBMgJDSTICQlIyAkpYagUSA0pGS3IFEgNTSU56A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-17"
+    ],
+    "captures": []
+  },
+  {
+    "id": "p-sin",
+    "kind": "positioning",
+    "schedule": "weekly",
+    "weekday": 3,
+    "label": "台北往返新加坡",
+    "origin": "桃園",
+    "dest": "新加坡",
+    "from": "TPE",
+    "to": "SIN",
+    "tripDays": 7,
+    "nonstop": true,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAGoFEgNUUEVyBRIDU0lOGhwSCjIwMjYtMTEtMTAoAGoFEgNTSU5yBRIDVFBFQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-kul-nrt",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 4,
+    "label": "吉隆坡出發飛東京",
+    "origin": "吉隆坡",
+    "dest": "成田",
+    "from": "KUL",
+    "to": "NRT",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNLVUxyBRIDTlJUegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA05SVHIFEgNLVUx6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-kul-cts",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 4,
+    "label": "吉隆坡出發飛札幌",
+    "origin": "吉隆坡",
+    "dest": "新千歲",
+    "from": "KUL",
+    "to": "CTS",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNLVUxyBRIDQ1RTegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA0NUU3IFEgNLVUx6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-kul-jfk",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 4,
+    "label": "吉隆坡出發飛紐約",
+    "origin": "吉隆坡",
+    "dest": "紐約甘迺迪",
+    "from": "KUL",
+    "to": "JFK",
+    "tripDays": 14,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNLVUxyBRIDSkZLegNUUEUaLRIKMjAyNi0xMS0xNygBMgJDSTICQlIyAkpYagUSA0pGS3IFEgNLVUx6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-17"
+    ],
+    "captures": []
+  },
+  {
+    "id": "p-kul",
+    "kind": "positioning",
+    "schedule": "weekly",
+    "weekday": 4,
+    "label": "台北往返吉隆坡",
+    "origin": "桃園",
+    "dest": "吉隆坡",
+    "from": "TPE",
+    "to": "KUL",
+    "tripDays": 7,
+    "nonstop": true,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAGoFEgNUUEVyBRIDS1VMGhwSCjIwMjYtMTEtMTAoAGoFEgNLVUxyBRIDVFBFQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-mnl-nrt",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 5,
+    "label": "馬尼拉出發飛東京",
+    "origin": "馬尼拉",
+    "dest": "成田",
+    "from": "MNL",
+    "to": "NRT",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNNTkxyBRIDTlJUegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA05SVHIFEgNNTkx6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-mnl-cts",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 5,
+    "label": "馬尼拉出發飛札幌",
+    "origin": "馬尼拉",
+    "dest": "新千歲",
+    "from": "MNL",
+    "to": "CTS",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNNTkxyBRIDQ1RTegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA0NUU3IFEgNNTkx6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-mnl-jfk",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 5,
+    "label": "馬尼拉出發飛紐約",
+    "origin": "馬尼拉",
+    "dest": "紐約甘迺迪",
+    "from": "MNL",
+    "to": "JFK",
+    "tripDays": 14,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNNTkxyBRIDSkZLegNUUEUaLRIKMjAyNi0xMS0xNygBMgJDSTICQlIyAkpYagUSA0pGS3IFEgNNTkx6A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-17"
+    ],
+    "captures": []
+  },
+  {
+    "id": "p-mnl",
+    "kind": "positioning",
+    "schedule": "weekly",
+    "weekday": 5,
+    "label": "台北往返馬尼拉",
+    "origin": "桃園",
+    "dest": "馬尼拉",
+    "from": "TPE",
+    "to": "MNL",
+    "tripDays": 7,
+    "nonstop": true,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAGoFEgNUUEVyBRIDTU5MGhwSCjIwMjYtMTEtMTAoAGoFEgNNTkxyBRIDVFBFQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-sgn-nrt",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 6,
+    "label": "胡志明出發飛東京",
+    "origin": "胡志明",
+    "dest": "成田",
+    "from": "SGN",
+    "to": "NRT",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNTR05yBRIDTlJUegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA05SVHIFEgNTR056A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-sgn-cts",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 6,
+    "label": "胡志明出發飛札幌",
+    "origin": "胡志明",
+    "dest": "新千歲",
+    "from": "SGN",
+    "to": "CTS",
+    "tripDays": 7,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNTR05yBRIDQ1RTegNUUEUaLRIKMjAyNi0xMS0xMCgBMgJDSTICQlIyAkpYagUSA0NUU3IFEgNTR056A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  },
+  {
+    "id": "x-sgn-jfk",
+    "kind": "exstation",
+    "schedule": "weekly",
+    "weekday": 6,
+    "label": "胡志明出發飛紐約",
+    "origin": "胡志明",
+    "dest": "紐約甘迺迪",
+    "from": "SGN",
+    "to": "JFK",
+    "tripDays": 14,
+    "nonstop": false,
+    "tfs": "Gi0SCjIwMjYtMTEtMDMoATICQ0kyAkJSMgJKWGoFEgNTR05yBRIDSkZLegNUUEUaLRIKMjAyNi0xMS0xNygBMgJDSTICQlIyAkpYagUSA0pGS3IFEgNTR056A1RQRUIBAUgBmAEB",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-17"
+    ],
+    "captures": []
+  },
+  {
+    "id": "p-sgn",
+    "kind": "positioning",
+    "schedule": "weekly",
+    "weekday": 6,
+    "label": "台北往返胡志明",
+    "origin": "桃園",
+    "dest": "胡志明",
+    "from": "TPE",
+    "to": "SGN",
+    "tripDays": 7,
+    "nonstop": true,
+    "tfs": "GhwSCjIwMjYtMTEtMDMoAGoFEgNUUEVyBRIDU0dOGhwSCjIwMjYtMTEtMTAoAGoFEgNTR05yBRIDVFBFQgEBSAGYAQE=",
+    "tfsDates": [
+      "2026-11-03",
+      "2026-11-10"
+    ],
+    "captures": []
+  }
+]

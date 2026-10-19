@@ -1,0 +1,68 @@
+[
+  {
+    "from": "2026-11-12",
+    "to": "2026-11-15",
+    "name": "亞洲職棒冠軍賽，東京巨蛋",
+    "routes": ["nrt"],
+    "tag": "TOOL-SUM",
+    "source": { "label": "NPB 賽程", "url": "https://npb.jp/apbc/2026/" }
+  },
+  {
+    "from": "2026-12-29",
+    "to": "2027-01-03",
+    "name": "日本年末年始",
+    "routes": ["nrt", "cts"],
+    "tag": "GUESS",
+    "source": null
+  },
+  {
+    "from": "2027-02-04",
+    "to": "2027-02-11",
+    "name": "札幌雪祭",
+    "routes": ["cts"],
+    "tag": "TOOL-SUM",
+    "source": { "label": "雪祭官網", "url": "https://www.snowfes.com/" }
+  },
+  {
+    "from": "2027-02-04",
+    "to": "2027-02-10",
+    "name": "台灣春節連假",
+    "routes": ["nrt", "cts"],
+    "tag": "TOOL-SUM",
+    "source": { "label": "ETtoday 轉述人事總處 116 年行事曆", "url": "https://www.ettoday.net/news/20260521/3169805.htm" }
+  },
+  {
+    "from": "2027-03-24",
+    "to": "2027-04-07",
+    "name": "東京櫻花",
+    "note": "平年 3/24 開花、3/31 滿開，滿開後再算一週",
+    "routes": ["nrt"],
+    "tag": "TOOL-SUM",
+    "source": { "label": "東京管區氣象台", "url": "https://www.data.jma.go.jp/tokyo/shosai/kanyoho/sakura/sakura.html" }
+  },
+  {
+    "from": "2027-04-03",
+    "to": "2027-04-06",
+    "name": "台灣兒童節清明連假",
+    "routes": ["nrt", "cts"],
+    "tag": "TOOL-SUM",
+    "source": { "label": "ETtoday 轉述人事總處 116 年行事曆", "url": "https://www.ettoday.net/news/20260521/3169805.htm" }
+  },
+  {
+    "from": "2027-04-29",
+    "to": "2027-05-05",
+    "name": "日本黃金週",
+    "routes": ["nrt", "cts"],
+    "tag": "TOOL-SUM",
+    "source": { "label": "內閣府國民祝日", "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html" }
+  },
+  {
+    "from": "2027-05-01",
+    "to": "2027-05-13",
+    "name": "札幌櫻花",
+    "note": "平年 5/1 開花、5/6 滿開；2022 到 2026 年都在 4/15 到 4/23 之間開花，可能更早",
+    "routes": ["cts"],
+    "tag": "SRC",
+    "source": { "label": "札幌管區氣象台 2026-04-24 發表", "url": "https://www.jma-net.go.jp/sapporo/oshirase/2026/sp_press260424_mankai.pdf" }
+  }
+]
